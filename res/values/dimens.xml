@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字体大小（特大） -->
+    <dimen name="text_size_larger">24sp</dimen>
+    <!-- 字体大小（大） -->
+    <dimen name="text_size_large">20sp</dimen>
+    <!-- 字体大小（微大） -->
+    <dimen name="text_size_slightlybigger">18sp</dimen>
+    <!-- 字体大小（中） -->
+    <dimen name="text_size_normal">16sp</dimen>
+    <!-- 字体大小（小） -->
+    <dimen name="text_size_small">14sp</dimen>
+    <!-- 字体大小（微小） -->
+    <dimen name="text_size_min">12sp</dimen>
+
+    <!-- 间距（特大） -->
+    <dimen name="margin_larger">24dp</dimen>
+    <!-- 间距（大） -->
+    <dimen name="margin_large">16dp</dimen>
+    <!-- 间距（微大） -->
+    <dimen name="margin_nomarlr">12dp</dimen>
+    <!-- 间距（中） -->
+    <dimen name="margin_nomarl">8dp</dimen>
+    <!-- 间距（微中） -->
+    <dimen name="margin_nomarli">6dp</dimen>
+    <!-- 间距（小） -->
+    <dimen name="margin_small">4dp</dimen>
+    <!-- 间距（特小） -->
+    <dimen name="margin_smaller">1dp</dimen>
+    <dimen name="margin_smallerr">0.5dp</dimen>
+
+    <!-- 可点击视图最小宽高度 -->
+    <dimen name="view_min_width">48dp</dimen>
+
+    <!-- 标题栏高度 -->
+    <dimen name="title_height">44dp</dimen>
+    <!-- tab高度 -->
+    <dimen name="tab_height">49dp</dimen>
+    <dimen name="margin_jiaodu">5dp</dimen>
+
+</resources>

@@ -1,5 +1,8 @@
 package com.library.view;
 
+import com.library.interfaces.OnTabSelectedListenter;
+import com.yaohuola.library.R;
+
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -8,9 +11,6 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.library.interfaces.OnTabSelectedListenter;
-import com.yaohuola.library.R;
 
 public class TabView extends LinearLayout implements OnClickListener {
 

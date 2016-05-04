@@ -12,7 +12,7 @@ import android.util.Log;
 public class SmartLog {
 
 	// 是否处于调试模式
-	private static boolean isDebug = true;
+	private static boolean isDebug = false;
 
 	/**
 	 * 打印提示信息

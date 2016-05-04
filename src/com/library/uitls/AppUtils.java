@@ -61,5 +61,18 @@ public class AppUtils
 		}
 		return null;
 	}
+	
+	/**
+	 * 防止重复点击
+	 */
+	private static long lastClickTime;
+    public synchronized static boolean isFastClick() {
+        long time = System.currentTimeMillis();   
+        if ( time - lastClickTime < 500) {   
+            return true;   
+        }   
+        lastClickTime = time;   
+        return false;   
+    }
 
 }
